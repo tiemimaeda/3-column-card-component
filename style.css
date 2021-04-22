@@ -1,0 +1,93 @@
+html{
+   color:hsl(0, 0%, 95%);
+   margin:68px 212px 68px 212px ;
+
+}
+
+.main-container{
+    display: flex;
+}
+
+section{
+    padding:50px;
+    height: 350px;
+    width: 200px;
+}
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px; 
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+}
+
+P{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.card-one{
+    background-color:hsl(31, 77%, 52%);
+    border-radius: 8px 0px 0px 8px;
+}
+
+.card-two{
+    background-color:hsl(184, 100%, 22%);
+}
+
+.card-three{
+    background-color: hsl(179, 100%, 13%);
+    border-radius:0px 8px 8px 0px;
+}
+
+button{
+   background-color: hsl(0, 0%, 95%);
+   font-family: 'Lexend Deca', sans-serif;
+   border-radius: 50px;
+   border: 0px;
+   padding: 12px 25px 12px 25px;
+   cursor: pointer;
+   margin-top: 60px;
+}
+
+button:hover{
+    border:2px solid hsl(0, 0%, 95%);
+    color:hsl(0, 0%, 95%);
+}
+
+.btn-sedan{
+    color:hsl(31, 77%, 52%);
+}
+
+.btn-sedan:hover{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.btn-suvs{
+    color:hsl(184, 100%, 22%);
+}
+
+.btn-suvs:hover{
+    background-color:hsl(184, 100%, 22%);
+}
+
+.btn-luxury{
+    color:hsl(179, 100%, 13%);
+}
+
+.btn-luxury:hover{
+    background-color:hsl(179, 100%, 13%);
+}
+
+/* media query for mobile screen */
+
+@media (max-width:375px) {
+    .main-container{
+        flex-direction: column;
+    }
+    html{
+        margin:20%;
+    }
+}
