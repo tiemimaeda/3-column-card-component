@@ -63,7 +63,7 @@ button:hover{
 
 .btn-sedan:hover{
     background-color: hsl(31, 77%, 52%);
-}
+} 
 
 .btn-suvs{
     color:hsl(184, 100%, 22%);
@@ -83,11 +83,44 @@ button:hover{
 
 /* media query for mobile screen */
 
-@media (max-width:375px) {
+@media (max-width:768px) {
     .main-container{
         flex-direction: column;
+        padding-bottom: 10px;
+        
     }
     html{
-        margin:20%;
+        margin:0% 50% 0% 30%;
+        
+    }
+    .card-one{
+        border-radius: 8px 8px 0px 0px;
+        padding: 15px 30px 0px 30px;
+        height: 330px;
+        
+    }
+    .btn-sedan{
+        position:relative;
+        bottom: 50px;
+        
+    }
+    .card-two{
+        padding-bottom: 20px;
+        padding: 15px 30px 0px 30px;
+        height: 330px;
+    }
+    .btn-suvs{
+        position:relative;
+        bottom: 50px;
+    }
+    .card-three{
+        border-radius: 0px 0px 8px 8px;
+        padding: 15px 30px 0px 30px;
+        height: 330px;
+    }
+    .btn-luxury{
+        position:relative;
+        bottom: 50px;
     }
 }
+
