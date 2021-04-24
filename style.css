@@ -1,11 +1,20 @@
-html{
-   color:hsl(0, 0%, 95%);
-   margin:68px 212px 68px 212px ;
+/* *{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+} */
 
+
+html, body {
+    color:hsl(0, 0%, 95%);
+    font-family: 'Montserrat', sans-serif;
 }
 
 .main-container{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:5% 20% 5% 20%;
 }
 
 section{
@@ -49,7 +58,7 @@ button{
    border: 0px;
    padding: 12px 25px 12px 25px;
    cursor: pointer;
-   margin-top: 60px;
+   margin-top: 20%;
 }
 
 button:hover{
@@ -85,42 +94,23 @@ button:hover{
 
 @media (max-width:768px) {
     .main-container{
-        flex-direction: column;
-        padding-bottom: 10px;
-        
+        flex-direction: column;  
     }
-    html{
-        margin:0% 50% 0% 30%;
-        
-    }
+
     .card-one{
         border-radius: 8px 8px 0px 0px;
-        padding: 15px 30px 0px 30px;
-        height: 330px;
-        
+        padding: 15px 30px 0px 30px;     
     }
-    .btn-sedan{
-        position:relative;
-        bottom: 50px;
-        
-    }
+
     .card-two{
         padding-bottom: 20px;
         padding: 15px 30px 0px 30px;
-        height: 330px;
     }
-    .btn-suvs{
-        position:relative;
-        bottom: 50px;
-    }
+
     .card-three{
         border-radius: 0px 0px 8px 8px;
         padding: 15px 30px 0px 30px;
-        height: 330px;
     }
-    .btn-luxury{
-        position:relative;
-        bottom: 50px;
-    }
+
 }
 

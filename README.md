@@ -1,11 +1,41 @@
-### 3 column card component
+# 3-column card component solution
 
-### Este é um projeto simples de 3 colunas para melhorar minhas habilidades.
+This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). 
 
-### No projeto foi usado:
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
+
+### Screenshot
+
+![](/images/screenshot.jpg)
+
+
+## My process
+
+### Built with
+
 * HTML5
 * CSS3
-### Nesse projeto também foi praticado:
+
+
+### What I learned
+* Semantic markup
 * Flexbox
-* Hover
-* E por ultimo Media query para atingir a meta de responsividade entre outros tamanhos de tela.
+* Hover states for interactive elements
+
